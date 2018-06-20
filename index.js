@@ -40,7 +40,7 @@ const showError = error => {
  * @param {Object.<string,*>} records Object of records to be logged
  */
 const makeLog = (records) => {
-  for (let key of records) {
+  for (let key in records) {
     const value = typeof records[key] === 'object' ? JSON.stringify(records[key]) : records[key]
     console.log('-----------------------------')
     console.log(`${key}: ${records[key]}`)

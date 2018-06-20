@@ -1,6 +1,6 @@
 {
   "name": "elasticio-useful-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Useful functions for elastic.io platform",
   "main": "index.js",
   "scripts": {
