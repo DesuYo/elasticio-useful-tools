@@ -42,9 +42,7 @@ const showError = error => {
 const makeLog = (records) => {
   for (let key in records) {
     const value = typeof records[key] === 'object' ? JSON.stringify(records[key]) : records[key]
-    console.log('-----------------------------')
     console.log(`${key}: ${value}`)
-    console.log('-----------------------------')
   }
 }
 
